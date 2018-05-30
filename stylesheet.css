@@ -3,21 +3,22 @@ body{
 }
 
 .indexbody{
-	background-size: 100% 110%;
+	background-image: url("images/gumbar.png");
+	background-size: 100% 200%;
     width:100%;
     height:200%;
 	width:100%;
 }
 .titlebody{
-	background-image: url("images/burn.jpg");
-	background-size: 100% 110%;
+	background-image: url("images/gumsticks.jpg");
+	background-size: 100% 200%;
     width:100%;
     height:200%;
 	width:100%;
 }
 
 .internetbody{
-	background-image: url("images/burn.jpg");
+	background-image: url("images/gumsticks.jpg");
 	background-size: 100% 200%;
     width:100%;
     height:200%;
@@ -25,7 +26,7 @@ body{
 	
 }
 .staticsbody{
-	background-image: url("images/burn.jpg");
+	background-image: url("images/gumsticks.jpg");
 	background-size: 100% 200%;
     width:100%;
     height:200%;
@@ -108,8 +109,82 @@ body{
 	grid-column-start: 2;
 	grid-column-end: span 2;
 }
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4vh;
+}
+.gum7 {
+	border: 1px solid black;
+	background-color: white;
+	grid-gap: 50px;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+}
+.gum8 {
+	border: 1px solid black;
+	background-color: white;
+	padding: 1em;
+	grid-column-start: 3;
+	grid-column-end: span 3;
+}
+.gum9 {
+	background:white;
+	grid-gap: 50px;
+	padding: 1em;
+	grid-column-start: 2;
+	grid-column-end: span 2;
+}
+.grid3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 4vh;
+}
+.gum9 {
+	background:white;
+	grid-gap: 50px;
+	padding: 1em;
+	grid-column-start: 2;
+	grid-column-end: span 1;
+}
+.gum10 {
+	background:white;
+	grid-gap: 50px;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+}
+.grid4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 4vh;
+}
+.gum11 {
+	background-color: white;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+}
+.gum12 {
+	background-color: white;
+	padding: 1em;
+	grid-column-start: 2;
+	grid-column-end: span 1;
+}
+.grid5 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 4vh;
+}
+.gum13 {
+	background-color: #DDBDDB;
+	margin: 0 15vw;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+}
 p {
-	margin-left: 20vw;
-	margin-right: 20vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
 	line-height: 1.5;
 }
